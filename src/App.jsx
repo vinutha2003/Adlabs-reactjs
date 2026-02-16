@@ -2,15 +2,17 @@ import LenisScroll from "./components/lenis-scroll";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import AboutSection from "./sections/about-section";
+import ContactSection from "./sections/contact-section";
+
 
 import HeroSection from "./sections/hero-section";
-import FaqSection from "./sections/faq-section";
+// import FaqSection from "./sections/faq-section";
 // import TrustedCompanies from "./sections/trusted-companies";
 import Features from "./sections/services";
-import WorkflowSteps from "./sections/workflow-steps";
-import Testimonials from "./sections/testimonials";
-import PricingPlans from "./sections/pricing-plans";
-import CallToAction from "./sections/call-to-action";
+// import WorkflowSteps from "./sections/workflow-steps";
+// import Testimonials from "./sections/testimonials";
+// import PricingPlans from "./sections/pricing-plans";
+// import CallToAction from "./sections/call-to-action";
 
 export default function App() {
     return (
@@ -27,11 +29,13 @@ export default function App() {
                 { <AboutSection />  }
                 {/* <TrustedCompanies /> */}
                 <Features />
-                <WorkflowSteps />
-                <Testimonials />
-                <FaqSection />
-                <PricingPlans />
-                <CallToAction />
+                {/* <WorkflowSteps /> */}
+                {/* <Testimonials /> */}
+                {/* <FaqSection /> */}
+                {/* <PricingPlans /> */}
+                {/* <CallToAction /> */}
+                <ContactSection />
+
             </main>
             <Footer />
         </>

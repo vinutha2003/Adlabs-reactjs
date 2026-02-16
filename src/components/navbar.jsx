@@ -54,7 +54,7 @@ export default function Navbar() {
                         </a>
                     ))}
                     <a href='/' className='btn glass'>
-                        Sign Up
+                        Get Started
                     </a>
                 </div>
 
@@ -72,7 +72,7 @@ export default function Navbar() {
 
 
                 <a href='/' className='btn glass' onClick={() => setIsOpen(false)}>
-                    Sign Up
+                      Get Started
                 </a>
 
                 <button onClick={() => setIsOpen(false)} className='rounded-md p-2 glass'>
