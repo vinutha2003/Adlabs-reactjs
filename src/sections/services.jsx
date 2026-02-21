@@ -36,7 +36,7 @@ export default function Services() {
     <section id="services" className="mt-32 px-6">
       <SectionTitle
         title="Our Services"
-        description="End To End Printing, Event & Digital Solutions Under One Roof"
+        description="End To End Printing, Eventz & Digital Solutions Under One Roof"
       />
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">

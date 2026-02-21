@@ -1,0 +1,40 @@
+import LenisScroll from "../components/lenis-scroll";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+
+import HomeSection from "../pages/Home";
+
+import AboutSection from "../sections/about-section";
+import ContactSection from "../sections/contact-section";
+import HeroSection from "../sections/hero-section";
+import Features from "../sections/services";
+
+
+export default function Home() {
+    return (
+        <>
+            <LenisScroll />
+            <Navbar />
+            <div className="fixed inset-0 overflow-hidden -z-20 pointer-events-none">
+                <div className="absolute rounded-full top-80 left-2/5 -translate-x-1/2 size-130 bg-[#D10A8A] blur-[100px]" />
+                <div className="absolute rounded-full top-80 right-0 -translate-x-1/2 size-130 bg-[#2E08CF] blur-[100px]" />
+                <div className="absolute rounded-full top-0 left-1/2 -translate-x-1/2 size-130 bg-[#F26A06] blur-[100px]" />
+            </div>
+            <main className='px-4'>
+                <HeroSection />
+                { <AboutSection />  }
+
+                {/* <TrustedCompanies /> */}
+                <Features />
+                {/* <WorkflowSteps /> */}
+                {/* <Testimonials /> */}
+                {/* <FaqSection /> */}
+                {/* <PricingPlans /> */}
+                {/* <CallToAction /> */}
+                <ContactSection />
+
+            </main>
+            <Footer />
+        </>
+    );
+}

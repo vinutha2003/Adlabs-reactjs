@@ -6,13 +6,12 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
-    const links = [
-        { name: "Home", href: "#home" },
-        { name: "About", href: "#about" },
-        { name: "Services", href: "#services" },
-        { name: "Contact", href: "#contact" },
+  const links = [
+  { name: "Home", href: "#/" },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#services" },
+  { name: "Contact", href: "#contact" },
 ];
-
 
     useEffect(() => {
         const handleScroll = () => {
@@ -52,10 +51,9 @@ export default function Navbar() {
                         >
                             {link.name}
                         </a>
+                        
                     ))}
-                    <a href='/' className='btn glass'>
-                        Get Started
-                    </a>
+                    <a href="#/getstarted" className='btn glass'>Get Started</a>
                 </div>
 
                 <button onClick={() => setIsOpen(true)} className='transition active:scale-90 md:hidden'>
@@ -71,9 +69,9 @@ export default function Navbar() {
                 ))}
 
 
-                <a href='/' className='btn glass' onClick={() => setIsOpen(false)}>
-                      Get Started
-                </a>
+                <a href="#/getstarted" className='btn glass' onClick={() => setIsOpen(false)}>
+  Get Started
+</a>
 
                 <button onClick={() => setIsOpen(false)} className='rounded-md p-2 glass'>
                     <XIcon />
