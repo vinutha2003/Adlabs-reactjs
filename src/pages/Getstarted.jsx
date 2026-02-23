@@ -74,7 +74,7 @@ export default function GetStarted() {
           />
 
           <button className="w-full rounded-xl bg-gradient-to-r from-orange-500 to-pink-500 py-3 font-semibold text-white transition hover:opacity-90">
-            Send via WhatsApp
+            Send WhatsApp
           </button>
         </form>
       </div>
