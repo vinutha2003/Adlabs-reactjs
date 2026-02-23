@@ -1,5 +1,6 @@
 import { PlayCircleIcon } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
 
@@ -45,9 +46,11 @@ export default function HeroSection() {
                     transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
                 >
                     
-                    <button className="btn glass py-1 px-3 text-xs">
-                        Get Quote
-                    </button>
+                   
+
+<Link to="/quote" className="btn bg-orange-500">
+  Get Quote
+</Link>
                 </motion.div>
             </motion.section>
         </>
