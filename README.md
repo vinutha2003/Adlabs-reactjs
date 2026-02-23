@@ -66,7 +66,7 @@ This project was built to practice modern frontend development workflows and dem
 
 ## 📷 Preview
 
-(Add screenshots here once deployed)
+[(Add screenshots here once deployed)](https://vinutha2003.github.io/Adlabs-reactjs/)
 
 ---
 
