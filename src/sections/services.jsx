@@ -33,7 +33,10 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="mt-32 px-6">
+    <section
+      id="about"
+      className="relative w-full bg-gradient-to-br from-[#020617] via-[#3b0764] to-[#ff6a00] py-24 overflow-hidden"
+    >
       <SectionTitle
         title="Our Services"
         description="End To End Printing, Eventz & Digital Solutions Under One Roof"
