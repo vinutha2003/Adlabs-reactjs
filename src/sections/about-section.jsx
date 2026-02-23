@@ -31,7 +31,10 @@ export default function AboutSection() {
   ];
 
   return (
-    <section id="about" className="mt-40">
+    <section
+      id="about"
+      className="relative w-full bg-gradient-to-br from-[#020617] via-[#3b0764] to-[#ff6a00] py-24 overflow-hidden"
+    >
       <SectionTitle
         title="About Us"
         description="Creative minds. Reliable execution. One trusted partner for printing, events & digital growth."
