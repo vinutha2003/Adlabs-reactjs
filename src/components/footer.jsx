@@ -21,26 +21,34 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-6 pb-6 text-gray-200">
 
-                <a href="https://facebook.com" target="_blank"
+                <a href="https://www.facebook.com/profile.php?id=61587557383639" target="_blank"
                     className="hover:-translate-y-1 hover:text-blue-500 transition-all duration-300">
                     <Facebook size={22} />
                 </a>
 
-                <a href="https://instagram.com" target="_blank"
+                <a href="https://www.instagram.com/gunaagraphics1/" target="_blank"
                     className="hover:-translate-y-1 hover:text-pink-500 transition-all duration-300">
                     <Instagram size={22} />
                 </a>
 
-                <a href="https://twitter.com" target="_blank"
-                    className="hover:-translate-y-1 hover:text-sky-400 transition-all duration-300">
-                    <Twitter size={22} />
-                </a>
-
-                <a href="https://youtube.com" target="_blank"
-                    className="hover:-translate-y-1 hover:text-red-500 transition-all duration-300">
-                    <Youtube size={22} />
-                </a>
-
+                <div
+  className="opacity-40 cursor-not-allowed relative group"
+>
+  <Twitter size={22} />
+  <span className="absolute bottom-8 left-1/2 -translate-x-1/2 
+                   bg-black text-white text-xs px-2 py-1 rounded 
+                   opacity-0 group-hover:opacity-100 transition">
+    Coming Soon
+  </span>
+</div>
+                <div className="opacity-40 cursor-not-allowed relative group">
+  <Youtube size={22} />
+  <span className="absolute bottom-8 left-1/2 -translate-x-1/2 
+                   bg-black text-white text-xs px-2 py-1 rounded 
+                   opacity-0 group-hover:opacity-100 transition">
+    Coming Soon
+  </span>
+</div>
             </div>
 
             <hr className="w-full border-white/20 mt-6" />
